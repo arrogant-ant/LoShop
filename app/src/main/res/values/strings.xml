@@ -16,4 +16,16 @@
     </string>
     <string name="dont_have_acc">Dont have a Loshop account!!</string>
     <string name="action_sign_up">Create Account</string>
+    <string name="sign_up_title">Where Are You?</string>
+    <string name="name">Name</string>
+    <string name="add1">Address line 1</string>
+    <string name="add2">Address line 2</string>
+    <string name="pin">Pincode</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="use_product">I will use product and services</string>
+    <string name="provide_product">I will provide product and services</string>
+    <string name="deliver_product">I will deliver product and services</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search</string>
 </resources>

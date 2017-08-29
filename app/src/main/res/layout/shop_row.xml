@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Custom.Widget.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="11"
+        >
+
+        <ImageView
+            android:id="@+id/shop_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="3"
+            android:padding="15dp"
+            android:src="@drawable/ic_shop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crazy chilly"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/shop_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant"
+                android:textColor="@color/darkGray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shop_timing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8am - 8pm"
+                android:textColor="@color/darkGray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shop_offday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunday Closed"
+                android:textColor="@color/darkGray"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:padding="15dp"
+            android:src="@drawable/ic_info" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
