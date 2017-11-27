@@ -9,21 +9,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="11"
+        android:weightSum="10"
         >
 
         <ImageView
             android:id="@+id/shop_icon"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_weight="3"
-            android:padding="15dp"
+            android:layout_weight="2"
+            android:padding="11dp"
             android:src="@drawable/ic_shop" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="6"
+            android:layout_weight="8"
             android:orientation="vertical"
             android:padding="5dp">
 
@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Crazy chilly"
-                android:textColor="@android:color/black"
+                android:textColor="@color/primary_text"
                 android:textSize="20sp" />
 
 
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Restaurant"
-                android:textColor="@color/darkGray"
+                android:textColor="@color/secondary_text"
                 android:textSize="18sp" />
 
             <TextView
@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8am - 8pm"
-                android:textColor="@color/darkGray"
+                android:textColor="@color/secondary_text"
                 android:textSize="18sp" />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sunday Closed"
-                android:textColor="@color/darkGray"
+                android:textColor="@color/secondary_text"
                 android:textSize="18sp" />
 
         </LinearLayout>
@@ -65,8 +65,8 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_weight="2"
-            android:padding="15dp"
+            android:layout_weight="1"
+            android:padding="12dp"
             android:src="@drawable/ic_info" />
 
     </LinearLayout>
